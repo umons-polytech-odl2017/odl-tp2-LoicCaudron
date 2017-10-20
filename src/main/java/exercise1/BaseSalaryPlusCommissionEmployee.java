@@ -15,7 +15,7 @@ public class BaseSalaryPlusCommissionEmployee extends Employee{
 
 	public int computeSalary(){
 
-		return (this.baseSalary)+sales*commission;
+		return baseSalary+sales*commission;
 	}
 
 	public void sell() {

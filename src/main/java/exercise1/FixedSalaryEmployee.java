@@ -10,7 +10,6 @@ public class FixedSalaryEmployee extends Employee {
 	}
 
 	public int computeSalary(){
-
 		return this.fixedSalary;
 	}
 

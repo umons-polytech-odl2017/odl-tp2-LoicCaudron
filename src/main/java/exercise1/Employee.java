@@ -3,8 +3,6 @@ package exercise1;
 public abstract class Employee {
 
 	private String name;
-	private int salary;
-
 
 	public Employee(String name) {
 
@@ -13,12 +11,11 @@ public abstract class Employee {
 
 	public abstract int computeSalary();
 
-	public void sell() { }
+	public abstract void sell();
 
-	public void workOneHour() { }
+	public abstract void workOneHour();
 
 	public String getName() {
-
 		return name;
 	}
 }
