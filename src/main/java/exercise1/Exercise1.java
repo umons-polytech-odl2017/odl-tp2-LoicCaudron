@@ -1,6 +1,7 @@
 package exercise1;
 
 public class Exercise1 {
+
 	public Employee buildFixedSalaryEmployee(String name, int fixedSalary) {
 		return null;
 	}
