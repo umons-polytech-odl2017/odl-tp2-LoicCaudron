@@ -13,7 +13,7 @@ public class WorkHourSalaryEmployee extends Employee{
 
 	public int computeSalary(){
 
-		return hourRate;
+		return hourRate*workHours;
 	}
 
 	public void sell() { }
