@@ -7,7 +7,7 @@ public class WorkHourSalaryEmployee extends Employee{
 
 	public WorkHourSalaryEmployee(String name, int hourRate) {
 
-		super(name);
+		super(name);                                          //appel du constructeur parent
 		this.hourRate = hourRate;
 	}
 

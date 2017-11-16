@@ -8,7 +8,7 @@ public class BaseSalaryPlusCommissionEmployee extends Employee{
 
 	public BaseSalaryPlusCommissionEmployee(String name, int baseSalary, int commission) {
 
-		super(name);
+		super(name);                                                                      //appel du constructeur parent
 		this.baseSalary = baseSalary;
 		this.commission = commission;
 	}
